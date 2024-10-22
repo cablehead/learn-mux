@@ -11,7 +11,7 @@
 
 | Nu Command     | API Endpoint           | HTTP Method | Description                        |
 | -------------- | ---------------------- | ----------- | ---------------------------------- |
-| `assets list`  | `/assets`              | `GET`       | Fetches a list of assets           |
+| `assets list`  | `/assets`              | [`GET`](https://docs.mux.com/api-reference#video/operation/list-assets)       | Fetches a list of assets           |
 | `upload start` | `/uploads`             | `POST`      | Starts a new video upload          |
 | `upload list`  | `/uploads`             | `GET`       | Fetches a list of uploads          |
 | `upload info`  | `/uploads/{upload_id}` | `GET`       | Retrieves upload info by upload ID |
