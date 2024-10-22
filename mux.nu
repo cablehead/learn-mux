@@ -4,7 +4,8 @@ export def "assets list" [] {
 		-u $env.MUX_TOKEN_ID
 		-p $env.MUX_TOKEN_SECRET
 		https://api.mux.com/video/v1/assets
-		) | get data
+		) | get data |
+        | update created_at { into int | $in * 1_000_000_000 | into datetime --timezone LOCAL }
 }
 
 export def "upload start" [
