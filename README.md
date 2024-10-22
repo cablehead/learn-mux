@@ -7,6 +7,8 @@
 
 ## Endpoints Currently Supported
 
+`https://api.mux.com/video/v1/`
+
 | Nu Command     | API Endpoint           | HTTP Method | Description                        |
 | -------------- | ---------------------- | ----------- | ---------------------------------- |
 | `assets list`  | `/assets`              | `GET`       | Fetches a list of assets           |
